@@ -9,7 +9,7 @@ An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate
+$ git clone git://github.com/derny/ngbp
 $ cd ng-boilerplate
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
@@ -18,6 +18,10 @@ $ grunt watch
 ```
 
 Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
+
+If you see any errors while attempting the bower install -- run the following from your command line:
+
+git config --global url."https://".insteadOf git://
 
 Happy hacking!
 
