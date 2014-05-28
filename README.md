@@ -21,7 +21,7 @@ Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
 
 If you see any errors while attempting the bower install -- run the following from your command line:
 
-git config --global url."https://".insteadOf git://
+'git config --global url."https://".insteadOf git://'
 
 Happy hacking!
 
